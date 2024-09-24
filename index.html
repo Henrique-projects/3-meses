@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>3 meses</title>
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+            <h1>Feliz 3 meses meu amor!!!!</h1>
+            <p>Para comemorar esta nossa conquista, aqui está meu presente, que é um joguinho <strong>simples</strong> porém feito com <strong>amor</strong> e especialmente pra você, com as nossas bodas de sorvete❤❤❤</p>
+            <hr>
+            <p>Instruções: você é um algodão doce e o objeto que está indo até você é água. Por ser um algodão doce, obviamente você morrerá se encostar na água. Clique ou aperte alguma tecla para pular (o clique tem um pouco de delay, então recomento usar alguma tecla).</p>
+            <button id="play">Jogar</button>
+        </div>
+        <div class="game-over" id="game-over">
+            <p>GAME OVER</p>
+            <p>Deseja continuar?</p>
+            <button id="over-sim"><p>Sim</p></button>
+            <button id="over-nao"><p>Não</p></button>
+        </div>
+        <div class="game-container">
+            <div class="nuvens">
+                <img src="./src/img/nuvem.png" id="nuvem-1">
+                <img src="./src/img/nuvem.png" id="nuvem-2">
+                <img src="./src/img/nuvem.png" id="nuvem-3">
+                <img src="./src/img/nuvem.png" id="nuvem-4">
+                <img src="./src/img/nuvem.png" id="nuvem-5">
+            </div>
+            <img src="./src/img/algodao-doce.png" class="algodao">
+            <img src="./src/img/agua.png" class="agua">
+            <img src="./src/img/algodao-doce-morto.png" class="algodao sumir">
+            <audio src="src/media/morreu.mp3" id="morreu-audio" preload="auto"></audio>
+        </div>
+    </div>
+</body>
+<script src="./src/js/main.js"></script>
+</html>
